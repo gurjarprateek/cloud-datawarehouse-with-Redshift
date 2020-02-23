@@ -1,6 +1,6 @@
-### CREATED ON - July 02 2019
-### MODIFIED ON - July 02 2019
-### DEVELOPER - PRATEEK GURJAR
+CREATED ON - July 02 2019
+MODIFIED ON - July 02 2019
+DEVELOPER - PRATEEK GURJAR
 
 This project covers the entire ETL process for our client Sparkify. Sparkify is a service that provides on demand music streaming for its customers. In the project we started with creating a dimensional model with Songplays as Fact Table and Songs, Artists, Time and Users as Dimension Tables. The dimensional model is basically as STAR Schema. Our data is located in S3 buckets, we write ETL logic to move data from S3 buckets into a Staging Area and load data from Staging into Dimension and Fact Tables on Redshift. 
 
